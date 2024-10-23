@@ -13,7 +13,7 @@ RUN ln -snf /usr/share/zoneinfo/Asia/Seoul /etc/localtime && echo Asia/Seoul > /
 ENV mysql_root_password wordpress
 
 # unblock port 80 for the Flask app to run on
-EXPOSE 40003
+EXPOSE 8080
 
 # execute the Flask app
 CMD ["python", "app.py"]
