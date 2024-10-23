@@ -1,4 +1,4 @@
-name: Deploy Azure with Gitops-Kustomize by hjkim
+name: acr deploy
 
 on:      
   workflow_dispatch:
